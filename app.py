@@ -3,14 +3,14 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Financial Empowerment for Women",
-    page_icon="/Users/sanjanadonthula/Documents/iacclerate-1/icon.webp"
+    page_icon="icon.webp"  # Ensure the image is in the same directory
 )
 
 # **Add title**
 st.title("Financial Empowerment for Women")
 
 # **Add an image**
-st.image("/Users/sanjanadonthula/Documents/iacclerate-1/icon.webp", caption="Empowering Women Financially", use_container_width=True)
+st.image("icon.webp", caption="Empowering Women Financially", use_container_width=True)
 
 # **Add content for each section directly**
 st.subheader("Budgeting")
